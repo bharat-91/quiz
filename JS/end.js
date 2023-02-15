@@ -4,8 +4,6 @@ const mostRecentScore = localStorage.getItem("mostRecentScore");
 const finalScore = document.getElementById('finalScore');
 
 const highScore = JSON.parse(localStorage.getItem('highScore')) || [];
-const 
-console.log(highScore);
 
 finalScore.innerText = mostRecentScore;
 
