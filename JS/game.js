@@ -52,7 +52,7 @@ getNewQuestions = () =>
     {
         localStorage.setItem('mostRecentScore' , score);
         //go to end Page
-       return window.location.assign('../index.html')
+       return window.location.assign('../HTML/index.html')
     }
     questionCounter++;
 
